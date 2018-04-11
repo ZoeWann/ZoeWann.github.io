@@ -1,9 +1,9 @@
-title: John Smith
+title: Zoe Wann
 description: My Personal Blog
-author: John Smith
+author: Zoe Wann
 logo: /hcz-jekyll-blog/static/img/avatar.png
 github: https://github.com/codeasashu
-about: Freelance developer
+about: Programming Beginner
 
 baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
 url: "https://codeasashu.github.io/hcz-jekyll-blog"
