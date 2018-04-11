@@ -2,11 +2,11 @@ title: Zoe Wann
 description: My Personal Blog
 author: Zoe Wann
 logo: /hcz-jekyll-blog/static/img/avatar.png
-github: https://github.com/ZoeWann
+github: https://github.com/codeasashu
 about: Programming Beginner
 
-baseurl: "https://zoewann.github.io/"
-url: "https://zoewann.github.io/"
+baseurl: "https://codeasashu.github.io/hcz-jekyll-blog"
+url: "https://codeasashu.github.io/hcz-jekyll-blog"
 
 allowsearch: true
 
