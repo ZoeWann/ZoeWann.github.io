@@ -41,10 +41,11 @@ $text_size: 13px;
     }
 
     .project-inner > a { display: block; }
-    .project-inner > img:hover{transform: scale(1.075);}
+    .project-inner > .animation:hover img{transform: scale(1.075)}
     .project-img {
         height: 200px;
         display: block;
+        overflow: hidden;
         @include bg( cover );
     }
 
