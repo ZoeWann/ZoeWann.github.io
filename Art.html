@@ -1,0 +1,26 @@
+---
+layout: default
+title:Arts
+---
+<style>
+ #art{
+        display: flex;
+     }
+#art a:hover img{
+    transform: scale(1.075);
+}
+</style>
+<article id="art">
+        {% for i in site.data.arts %}<!--修改了模板代码-->
+
+                <a href="/static/gallary/{{ i.image }}" class="thickbox">
+                    <!--<div class="project-img bordered" style="background-image: url('/static/gallary/{{ i.image }}');"></div>-->
+                    <img src="/static/gallary/{{ i.image }}"/>
+                   
+                    {% if i.url %} <a href="{{ i.url }}"> {% endif %}
+                    <h3 class="project-headlines">{{ i.name }}</h3>
+                    {% if i.url %} </a> {% endif %}
+                    
+                </a>
+        {% endfor %}
+</article>
