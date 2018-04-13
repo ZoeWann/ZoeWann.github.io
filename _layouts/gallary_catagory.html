@@ -7,8 +7,7 @@ layout: default
     {{ content }}
 
     <div class="projects row">
-    {% include project_tags.html %}
-    {% for i in site.data.gallarys %}<!--修改了模板代码-->
+    {% for i in site.data.gallarys_category %}<!--修改了模板代码-->
     <div class="project-item col-md-4 col-sm-6 col-xs-12">
     	<div class="well project-outer">
     		<div class="project-inner">
@@ -19,13 +18,7 @@ layout: default
     			<h3 class="project-headlines">{{ i.name }}</h3>
     			{% if i.url %} </a> {% endif %}
     			<div class="project-content">
-    				<div class="tag-holder">
-    				{% if i.tags %} 
-    					{% for j in i.tags %}
-    					<span class="label tags tag-filter" data-tag="{{ j | downcase }}">{{ j }}</span>
-    					{% endfor %}
-    				{% endif %}
-    				</div>
+    		
     				
     			</div>
     			<div class="project-footer"> 

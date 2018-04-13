@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<div style="display:flex">
+    <div class="projects row">
+        {% for i in site.data.gallarys %}<!--修改了模板代码-->
+        <div class="project-item col-md-4 col-sm-6 col-xs-12">
+            <div class="well project-outer">
+                <div class="project-inner">
+                    <a href="/static/gallary/{{ i.image }}" class="thickbox">
+                    <div class="project-img bordered" style="background-image: url('/static/gallary/{{ i.image }}');"></div>
+                    </a>
+                    {% if i.url %} <a href="{{ i.url }}"> {% endif %}
+                    <h3 class="project-headlines">{{ i.name }}</h3>
+                    {% if i.url %} </a> {% endif %}
+                    <div class="project-content">
+
+                    </div>
+                    <div class="project-footer"> 
+                        <span class="project-timeline">{{ i.date }}</span>
+                    </div>
+                </div>
+            </div>
+            </div>
+        {% endfor %}
+     </div>
+</div>
