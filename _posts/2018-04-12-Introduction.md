@@ -14,4 +14,5 @@ categories: others
 
 学习总结：
 - 学习了GitHub与git的基本使用方法,l大致了解了jekyll的安装使用，以及liquid模板的运用
-- 根据projects版块，写了一个具有调转功能的相册，但由于时间不够充分，基础知识不足，相册并未实现模板化。
+- 根据projects版块，写了一个具有调转功能的相册Gallary，但由于时间不够充分，基础知识不足，相册并未实现模板化。
+- 相册一：Taylor是模块化的，而相册二：SomeOfArts具有动画效果

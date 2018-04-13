@@ -10,3 +10,6 @@ I'm a student from CCNU.And here a programming freshman is!
 
 Hope to learn more!
 
+我是王嵘，来自华中师范大学，很高兴认识你。
+
+
